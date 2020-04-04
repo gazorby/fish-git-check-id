@@ -13,6 +13,7 @@ The plugin will create `~/.git-remotes`, that you could fill with your different
 
 ```console
 # ~/.git-remotes
+
 github.com,email,username
 gitlab.company.com,pro_email,pro_name
 
