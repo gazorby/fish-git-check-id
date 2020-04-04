@@ -3,6 +3,9 @@
 Ensure you are using the right identity depending on which repo you are working on
 
 ## 🚀 Install
+
+Using [fisher](https://github.com/jorgebucaran/fisher) :
+
 ```console
 fisher add Gazorby/fish-git-check-id
 ```
