@@ -1,4 +1,4 @@
-function git -d "Simple git wrapper"
+function git -d "Simple git wrapper" --wraps=git
     switch $argv[1]
         case 'commit'
             gckid; and command git $argv
