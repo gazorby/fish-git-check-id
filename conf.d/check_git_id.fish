@@ -5,4 +5,6 @@ end
 
 function __check_git_id_uninstall --on-event check_git_id_uninstall
     rm "$HOME"/.git-remotes
+    functions --erase gckid
+    functions --erase git
 end
